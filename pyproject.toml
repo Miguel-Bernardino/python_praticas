@@ -1,0 +1,18 @@
+[project]
+name = "python-praticas"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Miguel Bernardino Sousa Borges da Silva",email = "miguel.bernardino.5891@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas (>=3.0.1,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
